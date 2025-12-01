@@ -53,5 +53,5 @@ Free tier = 15 sessions/day (plenty). Pro = $20/month unlimited.
 
 Click the green **Fork** button at the top of this page and start building beautiful simulations.
 
-Happy teaching!  
-— Tarcin Education Team (December 2025)
+Happy coding!  
+— Team Tarcin
