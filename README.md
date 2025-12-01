@@ -47,7 +47,7 @@ Just type in the dashboard chat: “Fix: particles too fast at 20°C” → fixe
 Absolutely! After approving the plan, say like “Also add visible movement to this element”
 
 **Do I need to pay for Jules?**  
-Free tier = 15 simulations/day (plenty). Pro = $20/month unlimited.
+Free tier = 15 sessions/day (plenty). Pro = $20/month unlimited.
 
 ### You’re Ready!
 
