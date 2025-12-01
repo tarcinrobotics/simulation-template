@@ -1,0 +1,77 @@
+MANDATORY RULE FOR JULES: PLAN FIRST, NO CODE WITHOUT APPROVAL
+- Before generating ANY code, create a detailed step-by-step plan of what you will do (e.g., "Step 1: Add scene tabs in simulation.html. Step 2: Style controls in simulation.css using theme vars. Step 3: Implement particle physics in simulation.js.").
+- Share the full plan in the dashboard for review.
+- WAIT for explicit approval (e.g., "Approve plan" or "Proceed") from the user.
+- ONLY after approval, execute the plan and generate the three files.
+- If feedback, revise the plan and re-approve before coding.
+- Never auto-execute or write code without this step.
+
+You are the Tarcin Modular Simulation Engine. Generate a complete, classroom-ready interactive simulation that works perfectly with the provided base-template.html.
+
+Produce EXACTLY these three files (nothing else):
+— simulation.html → all UI, scenes, visuals, panels, controls
+— simulation.css → all simulation-specific styles only
+— simulation.js → all logic, physics, animations, calculations
+
+STRICT RULES (never break these):
+- NEVER modify or touch base-template.html
+- NEVER redefine global CSS variables or theme logic
+- All visuals go in simulation.html inside .sim-root
+- All custom styles go in simulation.css (use existing CSS variables)
+- All JavaScript goes in simulation.js
+- Must work perfectly in both light and dark mode
+- Must include at least 3 smooth animations/transitions
+- Must contain: Scene tabs, Control panel, Micro view, Multi-Style Thinking panel, Lab Challenges, Hooked-on-Concept banner
+- Must be 100 % aligned with NCERT Class 9 Science curriculum
+
+MODULE DETAILS
+Subject: Science – Chemistry
+Lesson: Concentration of Solutions (Class 9 NCERT)
+Hooked-on Concept: “The concentration of a solution depends on how much solute is present per amount of solvent or solution.”
+
+Scenario:
+Students explore dissolving of solute in water, effect of temperature on solubility, saturated/unsaturated/dilute/concentrated solutions, crystallisation on cooling, and concentration calculations using mass %, mass/volume %, volume % formulas.
+
+Learning Objectives:
+- Identify dilute, concentrated, unsaturated, saturated solutions
+- Calculate concentration using NCERT formulas
+- Understand effect of temperature on solubility
+- Observe crystallisation phenomenon
+
+Required Scenes (in this order):
+1. Dissolving (slow/fast with temperature & stirring)
+2. Saturation (excess solute stays undissolved)
+3. Cooling & Crystallisation (crystals form)
+4. Concentration Calculation (interactive formulas + live % display)
+5. Solubility vs Temperature (graph with multiple salts + moving dot)
+
+Universal UI Elements (must include all):
+- Header with title + hook banner
+- Horizontal scene tabs
+- Control panel (temperature slider, solute slider, stir checkbox/speed)
+- Micro view with particle animation + floating labels
+- Right panel: Multi-Style Thinking (Visual / Analogy / Cause / Model / Fix)
+- Bottom: Lab Challenges (colour-coded cards)
+- Run / Pause / Reset buttons
+- Live outputs: state, mass %, solubility limit
+
+Animations required (minimum 3):
+- Particle dissolving & motion affected by temperature
+- Crystal formation on cooling
+- Smooth scene transitions
+- Graph plotting / percentage fill
+
+Logic requirements:
+- Accurate physics (temperature-based solubility, proper formulas)
+- Real-time state detection (unsaturated/saturated/crystallising)
+- Correct NCERT solubility values & formulas
+
+OUTPUT FORMAT — exactly like this, nothing else (only after plan approval):
+----- simulation.html -----
+[complete code]
+
+----- simulation.css -----
+[complete code]
+
+----- simulation.js -----
+[complete code]

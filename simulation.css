@@ -1,0 +1,10 @@
+/* simulation.css
+   All simulation-specific styles only
+   Uses variables from base-template.html */
+
+.sim-root {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  color: var(--color-text);
+}
