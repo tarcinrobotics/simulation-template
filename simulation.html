@@ -1,8 +1,31 @@
 <!-- simulation.html -->
-<!-- All UI, scenes, visuals, panels go here -->
+<!-- Template: Place all simulation content inside .sim-root -->
 
-<div data-sim-root id="sim-root" class="sim-root">
-  <p style="text-align:center; color:#94a3b8; margin-top:60px;">
-    Simulation loading…<br><small>Jules is generating your scenes</small>
-  </p>
+<div id="sim-root" data-sim-root class="sim-root">
+  <header class="sim-header">
+    <h3 class="sim-header-title">Sample Simulation</h3>
+    <p class="sim-header-subtitle">
+      This is a starter layout. Replace the content with your actual simulation logic.
+    </p>
+  </header>
+
+  <section class="sim-layout">
+    <!-- Controls / Sidebar -->
+    <aside id="sim-dynamic-controls" class="sim-controls">
+      <!-- JS will populate controls here -->
+      <p class="sim-label">Controls will appear here.</p>
+    </aside>
+
+    <!-- Main content / Visualization -->
+    <main id="sim-tab-content" class="sim-content">
+      <!-- JS will populate main content here -->
+      <p class="sim-label">Simulation output will appear here.</p>
+    </main>
+
+    <!-- Notes / Explanations -->
+    <section id="sim-notes-content" class="sim-notes">
+      <!-- JS will populate notes here -->
+      <strong>Notes:</strong> This area can be used for observations, questions, or teacher hints.
+    </section>
+  </section>
 </div>
